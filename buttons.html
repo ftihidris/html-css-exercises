@@ -1,0 +1,109 @@
+<!-- To style the button in CSS -->
+<style>
+  .subscribe-button {
+    background-color: rgb(204, 0, 0);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer; /* cursor behaviour */
+    margin: 4px;
+    transition: opacity 0.15s; /* delay time */
+    vertical-align: top;
+  }
+  /* to animate the button to make it more responsive when cursor touch the button */
+  .subscribe-button:hover {
+    opacity: 0.7;
+  }
+  /* to animate the button to make it more responsive when you click the button*/
+  .subscribe-button:active{
+    opacity: 1;
+  }
+
+
+  .join-button {
+    background-color: white;
+    color: rgb(0, 98, 255);
+    border-color: rgb(0, 98, 255);
+    border-style: solid;
+    border-width: 1px;
+    padding: 9px;
+    border-radius: 2px; 
+    cursor: pointer; 
+    margin: 4px;
+    transition: background-color 0.2s, color 0.2s;
+    vertical-align: top;
+  }
+  .join-button:hover {
+    background-color: rgb(0, 98, 255);
+    color: white;
+  }
+  .join-button:active{
+    opacity: 0.7;
+  }
+
+
+  .tweet-button {
+    background-color:  rgb(29, 155, 240);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    vertical-align: top;
+  }
+  .tweet-button:hover {
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.15);
+  }
+  .tweet-button:active{
+    opacity: 0.7;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.15);
+  }
+
+  .amazon-button {
+    background-color:  rgb(255, 221, 0);
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+
+  .apply-button {
+    background-color:  rgb(0, 98, 255);
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 18px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+</style>
+
+<!-- HTML -->
+<button class="subscribe-button">
+  SUBSCRIBE
+</button>
+
+<button class="join-button">
+  JOIN
+</button>
+
+<button class="tweet-button">
+  Tweet
+</button>
+<p>
+</p>
+<button class="amazon-button">
+  Add to Cart
+</button>
+
+<button class="apply-button">
+  Apply on company website
+</button>
