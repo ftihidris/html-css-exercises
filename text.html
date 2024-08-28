@@ -1,0 +1,92 @@
+<!-- 
+ To style the text 
+ Checkout https://supersimple.dev/exercises/text for references
+ -->
+
+<!-- CSS -->
+<style>
+  /* constant for p (CSS Specifity)*/
+  p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 5;
+  }
+
+  .title-line {
+    font-size: 18px;
+    font-weight: bold;
+    width: 280px;
+    line-height: 24px;
+  }
+  .details-line{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+  }
+
+  .channel-line{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-top: 10;
+    margin-bottom: 10;
+  }
+
+  .descriptions-line{
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    width: 280px;
+    text-align: justify; 
+  }
+
+  .shop-line{
+    color: white;
+    margin-bottom: 50;
+    margin-top: 50;
+    font-size: 14px;
+    padding: 18px;
+    text-align: center;
+    background-color: rgb(227, 65, 64);
+    /* text-decoration: underline;*/
+  }
+  .shop-link{
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 3px;
+  }
+  .shop-link:hover{
+    text-decoration: underline;
+  }
+</style>
+
+
+<!-- HTML -->
+<p class="title-line">
+  Talking Tech and AI with Google CEO Sundar Pinchai!
+</p>
+
+<!-- &#183, &#10003, &#62 is HTML entity -->
+<p class="details-line">
+  3.4M views &#183; 6 months ago  
+</p>
+
+<p class="channel-line">
+  Marques Brownlee &#10003;
+</p>
+
+<p class="descriptions-line">
+  Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!
+</p>
+
+
+<!-- 
+Text element
+  <strong> - bold
+  <span> - generic that can  create class/flexible
+  <u> - underline
+ -->
+<p class="shop-line">
+  Shop early for the best selection of holiday favourites.
+  <span class="shop-link"> 
+    Shop now &#62;
+  </span>
+</p>
