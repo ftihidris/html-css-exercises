@@ -1,0 +1,33 @@
+.searchbox {
+  font-size: 18px;
+  display: block;
+}
+
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+
+.video-title {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+.channel {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.details {
+  font-size: 14px;
+  color: rgb(96, 96, 96);
+}
+
+.video-preview {
+  width: 300px;
+  font-family: Arial;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
