@@ -1,11 +1,3 @@
-p {
-  font-family: Roboto, Arial;
-}
-.searchbox {
-  font-size: 18px;
-  display: block;
-}
-
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
