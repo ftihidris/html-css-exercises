@@ -5,4 +5,24 @@ p {
 
 body {
   margin: 0;
+  padding-top: 60px;
+  padding-left: 80px;
+}
+
+.thumbnail-row {
+  position: relative;
+}
+
+.video-time {
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 2px;
+  padding: 3px;
+
 }
