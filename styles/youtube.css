@@ -5,10 +5,12 @@
   row-gap: 30px;
   margin-top: 20px;
 }
-
+.thumbnail-row {
+  position: relative;
+  margin-bottom: 8px;
+}
 .thumbnail {
   width: 100%;
-  margin-bottom: 10px;
   /*display: block;*/
 }
 
@@ -49,7 +51,7 @@
   width: 200px;*/
 }
 .profile-picture {
-  width: 80%;
+  width: 36px;
   border-radius: 25px;
 }
 
